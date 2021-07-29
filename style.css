@@ -1,0 +1,50 @@
+/*================ Import google fonts =================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    color: #6c6c6c !important;
+}
+/*=============== header section ===============*/
+header{
+    background-color: #264653 !important;
+}
+/*=============== top banner area ===============*/
+ .smallText{
+    font-size: 14px !important;
+}
+/*=============== utilites button ===============*/
+ .btnPerchase{
+    border: none;
+    padding: 18px 75px;
+    background: #E76F51;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+ .btnPerchase:hover{
+    background: #cc310b;
+}
+/*=============== fetured section ===============*/
+.feruredBike img{
+    width: 288px;
+    height: 243px;
+}
+.grey-scale-img{
+    filter: grayscale(100) !important;
+    -webkit-filter: grayscale(100) !important;
+}
+/*=============== happyclient section ===============*/
+#happyClient img{
+    width: 149px;
+    height: 149px;
+}
+/*=============== Latest news section ===============*/
+#latest-news img{
+    width: 337px;
+    height: 256px;
+}
