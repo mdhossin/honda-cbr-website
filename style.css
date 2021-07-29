@@ -30,8 +30,8 @@ header{
     background: #cc310b;
 }
 /*=============== fetured section ===============*/
-.feruredBike img{
-    width: 288px;
+#feturedBike img{
+    width: 288px !important;
     height: 243px;
 }
 .grey-scale-img{
